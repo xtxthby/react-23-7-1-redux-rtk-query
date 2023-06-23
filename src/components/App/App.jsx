@@ -14,6 +14,7 @@ export const App = () => {
         <Route path="/todos" exact>
           <TodosPage />
         </Route>
+        {/* оголошена сторінка тудушки */}
         <Route path="/todos/create">
           <CreateTodoPage />
         </Route>
